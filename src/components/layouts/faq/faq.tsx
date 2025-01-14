@@ -18,7 +18,7 @@ import { ShoppingCart } from 'lucide-react'
 
 export default function FAQ() {
   return (
-    <section id="faq" className="pt-24 pb-32 bg-gray-50">
+    <section id="faq" className="pt-24 pb-32 bg-gray-50 px-4">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 md:gap-36 items-start">
           <div>

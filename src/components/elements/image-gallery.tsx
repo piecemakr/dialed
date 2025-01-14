@@ -64,7 +64,7 @@ export function ImageGallery({ images }: ImageGalleryProps) {
         </div>
       </div>
 
-      <div className="flex space-x-2 overflow-x-auto py-2 px-1">
+      <div className="flex space-x-2 overflow-x-auto py-2 px-1 scrollbar-hide">
         {Object.entries(images).map(([key, img]) => (
           <button
             key={key}
@@ -74,7 +74,7 @@ export function ImageGallery({ images }: ImageGalleryProps) {
               }
             }}
             onClick={() => setMainImage(key)}
-            className={`relative w-20 transition-colors aspect-square bg-gray-200 overflow-hidden rounded-lg flex-shrink-0`}
+            className={`relative w-16 sm:w-20 transition-colors aspect-square bg-gray-200 overflow-hidden rounded-lg flex-shrink-0`}
           >
             {!imagesLoaded[key] && <Skeleton className="absolute inset-0" />}
             <Image

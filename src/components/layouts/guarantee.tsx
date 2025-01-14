@@ -35,7 +35,7 @@ export default function Guarantee() {
 
   return (
     <section ref={sectionRef} className="section relative overflow-hidden bg-gray-200">
-      <div ref={imageRef} className="absolute inset-0 h-[150%] -translate-y-1/2">
+      <div ref={imageRef} className="hidden sm:block absolute inset-0 h-[150%] -translate-y-1/2">
         <Image
           src="https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDqXxlCIKoUClRWXKygDvobGON85mAs610BHuUL"
           alt="An image of an open Eons DIALED jar with Quicksome™ tablets on the ground in front of the jar."
@@ -45,8 +45,8 @@ export default function Guarantee() {
         />
       </div>
 
-      <div className="container grid grid-cols-2 gap-24 relative h-full z-10">
-        <div className="col-start-2">
+      <div className="container grid sm:grid-cols-2 gap-24 relative h-full z-10">
+        <div className="sm:col-start-2">
           <div  className="max-w-2xl space-y-8">
             <p className="text-orange-500 font-medium mb-8 uppercase">[ Our Guarantee ]</p>
             <h2 className="text-4xl font-thin text-black sm:text-5xl md:text-6xl">

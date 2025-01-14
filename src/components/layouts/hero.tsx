@@ -51,7 +51,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section className="relative px-8 min-h-screen w-full overflow-hidden">
+    <section className="relative px-4 sm:px-8 min-h-screen w-full overflow-hidden">
       <div className="absolute inset-0" ref={imageRef}>
         <Image
           src="https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDq3ZuAca9C9KPhfxQIUGgWlmt7AOEzJoXM60pR"
@@ -64,37 +64,36 @@ export default function Hero() {
         <div className="absolute inset-0 bg-gradient-to-r from-white/100 via-white/10 to-transparent" />
       </div>
 
-      <div className="container relative h-screen">
-        <div className="flex h-full items-center">
-          <div className="max-w-2xl space-y-8 py-20">
-            <h1 ref={headlineRef} className="text-4xl sm:text-5xl md:text-6xl font-thin text-black">
-              Combat Your Stress, Depression, and Anxiety,{' '}
-              <span className="bg-gradient-to-r from-[#813A62] to-[#E59130] text-transparent bg-clip-text font-bold">
-                Completely Naturally
-              </span>
-            </h1>
-            
-            <p className="text-lg md:text-xl text-black">
-              Dialed was created as an all-natural solution to help you live your best life, 
-              free from the grips of stress, anxiety, and depression.
-            </p>
+      <div className="container relative min-h-screen flex items-center">
+        <div className="max-w-2xl space-y-6 sm:space-y-8 py-12 sm:py-20">
+          <h1 ref={headlineRef} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-thin text-black">
+            Combat Your Stress, Depression, and Anxiety,{' '}
+            <span className="bg-gradient-to-r from-[#813A62] to-[#E59130] text-transparent bg-clip-text font-bold">
+              Completely Naturally
+            </span>
+          </h1>
+          
+          <p className="text-base sm:text-lg md:text-xl text-black">
+            Dialed was created as an all-natural solution to help you live your best life, 
+            free from the grips of stress, anxiety, and depression.
+          </p>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                size="lg"
-                onClick={() => window.location.href = eonsDiscount}
-              >
-                Buy Eons DIALED 
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="text-gray-800 hover:bg-gray-100 h-12 px-8 text-md uppercase "
-                onClick={() => window.location.href = '#learn-more'}
-              >
-                Learn More
-              </Button>
-            </div>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button
+              size="lg"
+              className="w-full sm:w-auto"
+              onClick={() => window.location.href = eonsDiscount}
+            >
+              Buy Eons DIALED 
+            </Button>
+            <Button
+              variant="outline"
+              size="lg"
+              className="w-full sm:w-auto text-gray-800 hover:bg-gray-100 h-12 px-8 text-md uppercase"
+              onClick={() => window.location.href = '#learn-more'}
+            >
+              Learn More
+            </Button>
           </div>
         </div>
       </div>

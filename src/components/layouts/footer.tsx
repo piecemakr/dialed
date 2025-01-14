@@ -9,7 +9,7 @@ import { product } from '../types'
 
 export default function Footer() {
   return (
-    <section className="relative flex flex-col gap-48 pt-[8rem] pb-[3rem] overflow-clip">
+    <section className="relative flex flex-col gap-48 pt-[8rem] pb-[3rem] overflow-clip px-4">
       <Image 
         src='/icon.png'
         alt='Icon'

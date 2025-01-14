@@ -117,7 +117,7 @@ export default function Reviews() {
   }, []);
 
   return (
-    <section id="reviews" className="relative py-16 md:py-24 overflow-hidden">
+    <section id="reviews" className="relative py-16 md:py-24 overflow-hidden px-4">
       <div className="absolute bottom-0 w-full h-[50%] bg-gray-50"></div>
 
       <div className="container mx-auto relative">
