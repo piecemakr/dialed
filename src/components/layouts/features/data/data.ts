@@ -4,8 +4,8 @@ export const features: Feature[] = [
   {
     icon: '/icons/heart.svg',
     alt: 'an icon of a heart',
-    h2: 'Alleviate Stress, Anxiety, and Depression',
-    description: 'DIALED is a natural, non-psychoactive supplement designed to help alleviate stress, anxiety, and depression with a micro-dose of carefully selected natural ingredients.',
+    h2: 'Alleviate Stress, Anxiety, and Fear',
+    description: 'DIALED is a natural, non-psychoactive supplement designed to help alleviate stress, anxiety, and fear with a micro-dose of carefully selected natural ingredients.',
   },
   {
     icon: '/icons/atom.svg',

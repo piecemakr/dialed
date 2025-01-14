@@ -3,7 +3,7 @@ import { Faq } from '../types/types'
 export const faqs: Faq[] = [
   {
     question: "Will I get high or experience hallucinations from DIALED?",
-    answer: "No, you will not get high or experience intense hallucinations from Dialed. The active ingredient, muscimol, works primarily on the GABA receptors in your brain, promoting relaxation and calm without the typical psychedelic effects associated with substances like psilocybin. Instead of feeling intoxicated, you will experience a calming, clear-headed sensation that can help reduce stress and anxiety."
+    answer: "No, you will not get high or experience intense hallucinations from DIALED. The active ingredient, muscimol, works primarily on the GABA receptors in your brain, promoting relaxation and calm without the typical psychedelic effects associated with substances like psilocybin. Instead of feeling intoxicated, you will experience a calming, clear-headed sensation that can help reduce stress and anxiety."
   },
   {
     question: "Is DIALED legal?",
@@ -18,8 +18,8 @@ export const faqs: Faq[] = [
     answer: "While muscimol does not cause intense hallucinations like psilocybin, it has subtle psychedelic properties that can influence your subconscious mind. It may affect your dream state and allow you to access deeper parts of your consciousness, helping you reflect on limiting beliefs and emotional blockages. Many users report that DIALED helps them to shift their perspective, showing them ways to improve their well-being, reduce self-limiting thoughts, and adopt a more positive outlook, all while maintaining a calming effect."
   },
   {
-    question: "How does Dialed help with mental health?",
-    answer: "Dialed works by targeting the GABA receptors in the brain, which are responsible for regulating anxiety and stress responses. By calming the nervous system, Dialed can help reduce anxiety, improve mood, and promote a sense of overall well-being. Additionally, its subtle effects on the subconscious mind can encourage reflection and personal growth, allowing users to break free from negative thought patterns and see themselves in a more positive light. This dual action makes it a powerful tool for improving mental health naturally and safely."
+    question: "How does DIALED help with mental health?",
+    answer: "DIALED works by targeting the GABA receptors in the brain, which are responsible for regulating anxiety and stress responses. By calming the nervous system, DIALED can help reduce anxiety, improve mood, and promote a sense of overall well-being. Additionally, its subtle effects on the subconscious mind can encourage reflection and personal growth, allowing users to break free from negative thought patterns and see themselves in a more positive light. This dual action makes it a powerful tool for improving mental health naturally and safely."
   },
   {
     question: "What is your return policy?",

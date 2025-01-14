@@ -18,9 +18,9 @@ export interface Product {
 export const product: Product = {
   name: 'DIALED',
   description: 'A unique dialing code for the EONS ecosystem',
-  shortDescription: 'Get Dialed In and Combat Stress, Depression, and Anxiety Naturally',
+  shortDescription: 'Get Dialed In and conquer Stress, Fear, and Anxiety Naturally',
   benefits: [
-    'Directly Combats Stress, Depression, and Anxiety',
+    'Conquer Stress, Fear, and Anxiety',
     'Powered by Quicksome™ Technology',
     'Zero-Psychoactive Effects',
     'Enhanced Focus, Creativity, and Menal Clarity',

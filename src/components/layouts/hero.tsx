@@ -67,15 +67,15 @@ export default function Hero() {
       <div className="container relative min-h-screen flex items-center">
         <div className="max-w-2xl space-y-6 sm:space-y-8 py-12 sm:py-20">
           <h1 ref={headlineRef} className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-thin text-black">
-            Combat Your Stress, Depression, and Anxiety,{' '}
+            Conquer Your Stress, Fear, and Anxiety,{' '}
             <span className="bg-gradient-to-r from-[#813A62] to-[#E59130] text-transparent bg-clip-text font-bold">
               Completely Naturally
             </span>
           </h1>
           
           <p className="text-base sm:text-lg md:text-xl text-black">
-            Dialed was created as an all-natural solution to help you live your best life, 
-            free from the grips of stress, anxiety, and depression.
+            DIALED was created as an all-natural solution to help you live your best life, 
+            free from the grips of stress, anxiety, and fear.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">

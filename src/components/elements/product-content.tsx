@@ -71,7 +71,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
             GET YOUR LIFE BACK
           </h3>
           <p className="font-regular text-base sm:text-lg">
-            Dialed&apos;s unique formulation works on the subconscious level, helping you overcome limiting beliefs and negative habits, all while promoting a balanced circadian rhythm. 
+            DIALED&apos;s unique formulation works on the subconscious level, helping you overcome limiting beliefs and negative habits, all while promoting a balanced circadian rhythm. 
           </p>
         </div>
 
