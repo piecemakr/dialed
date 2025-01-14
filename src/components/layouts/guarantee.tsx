@@ -37,7 +37,7 @@ export default function Guarantee() {
     <section ref={sectionRef} className="section relative overflow-hidden bg-gray-200">
       <div ref={imageRef} className="absolute inset-0 h-[150%] -translate-y-1/2">
         <Image
-          src="/DIALED-open.webp"
+          src="https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDqXxlCIKoUClRWXKygDvobGON85mAs610BHuUL"
           alt="An image of an open Eons DIALED jar with Quicksome™ tablets on the ground in front of the jar."
           fill
           objectFit='cover'

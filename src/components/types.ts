@@ -31,20 +31,20 @@ export const product: Product = {
   numberOfReviews: 145,
   images: {
     'image1': {
-      src: '/sample1.webp',
+      src: 'https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDqZDbCfuY2JuRkvLV5fOiCWlxdETrsGajqeFSn',
       alt: 'The front of the Eons DIALED Product'
     },
     'image2': {
-      src: '/sample2.webp',
-      alt: 'Product 2'
+      src: 'https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDqaEO9OWcHs7zYQ3ZVwd1WPLfUcFvR92b8lSOe',
+      alt: 'A photo of the Eons Dialed Product opened showing the quicksome tablets inside'
     },
     'image3': {
-      src: '/sample3.webp',
-      alt: 'Product 3'
+      src: 'https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDq34y4US9C9KPhfxQIUGgWlmt7AOEzJoXM60pR',
+      alt: 'A stack of three Eons Dialed products'
     },
     'image4': {
-      src: '/sample4.webp',
-      alt: 'Product 4'
+      src: 'https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDq3bpXwr9C9KPhfxQIUGgWlmt7AOEzJoXM60pR',
+      alt: 'Eons DIALED Supplement Facts'
     },
   }
 }

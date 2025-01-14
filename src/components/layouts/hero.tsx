@@ -2,8 +2,11 @@
 
 import { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
-import { Button } from "~/components/ui/button"
 import gsap from 'gsap'
+
+import { Button } from "~/components/ui/button"
+
+import { eonsDiscount } from "~/components/global/discount"
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0)
@@ -51,7 +54,7 @@ export default function Hero() {
     <section className="relative px-8 min-h-screen w-full overflow-hidden">
       <div className="absolute inset-0" ref={imageRef}>
         <Image
-          src="/hero.webp"
+          src="https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDq3ZuAca9C9KPhfxQIUGgWlmt7AOEzJoXM60pR"
           alt="Hero background"
           layout="fill"
           objectFit="cover"
@@ -79,7 +82,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 size="lg"
-                onClick={() => window.location.href = 'https://eons.com/products/dialed'}
+                onClick={() => window.location.href = eonsDiscount}
               >
                 Buy Eons DIALED 
               </Button>

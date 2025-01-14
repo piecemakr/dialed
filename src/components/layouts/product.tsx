@@ -7,7 +7,7 @@ import { product } from '~/components/types'
 
 export default function Product() {
   return (
-    <section className="section flex flex-col gap-48 relative overflow-clip">
+    <section id="learn-more" className="section flex flex-col gap-48 relative overflow-clip">
       <Image 
         src='/icon.png'
         alt='Icon'

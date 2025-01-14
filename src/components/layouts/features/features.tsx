@@ -5,6 +5,8 @@ import Image from 'next/image'
 import { Button } from '~/components/ui/button'
 import { features } from './data/data'
 
+import { eonsDiscount } from "~/components/global/discount"
+
 export default function eons() {
   return (
     <section id="benefits" className="section relative overflow-hidden bg-gray-50">
@@ -57,7 +59,7 @@ export default function eons() {
           <div className="flex flex-col gap-4">
             <Button
               size="lg"
-              onClick={() => window.location.href = 'https://eons.com/products/dialed'}
+              onClick={() => window.location.href = eonsDiscount}
             >
               Buy Eons DIALED 
             </Button>

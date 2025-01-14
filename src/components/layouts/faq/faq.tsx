@@ -4,6 +4,8 @@ import Image from 'next/image'
 
 import { faqs } from './data/data'
 
+import { eonsDiscount } from "~/components/global/discount"
+
 import {
   Accordion,
   AccordionContent,
@@ -36,7 +38,8 @@ export default function FAQ() {
               <Button 
                 size="lg" 
                 className="w-full md:w-auto text-md font-thin h-14"
-                onClick={() => window.location.href = 'https://eons.com/dialed'}
+                onClick={() => window.location.href = eonsDiscount}
+                
               >
                 <ShoppingCart className="mr-2 h-5 w-5" /> Buy DIALED
               </Button>

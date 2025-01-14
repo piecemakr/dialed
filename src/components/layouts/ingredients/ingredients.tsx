@@ -7,7 +7,7 @@ import {  ingredients } from './data/data'
 export default function Ingredients() {
 
   return (
-    <section className="w-full px-4 py-12 md:py-16 lg:py-20">
+    <section id="ingredients" className="w-full px-4 py-12 md:py-16 lg:py-20">
       <div className="container max-w-7xl mx-auto">
         <div className="flex flex-col gap-6 mb-16">
           <p className="text-orange-500 font-medium mb-8">[ KEY INGREDIENTS ]</p>

@@ -38,7 +38,7 @@ export default function Footer() {
               />
           </Link>
           <div className="hidden md:flex space-x-8 font-medium ">
-            <Link href="#science" className="text-gray-800 hover:text-gray-600 ">The Science</Link>
+            {/* <Link href="#quicksome" className="text-gray-800 hover:text-gray-600 ">The Science</Link> */}
             <Link href="#benefits" className="text-gray-800 hover:text-gray-600">Benefits</Link>
             <Link href="#ingredients" className="text-gray-800 hover:text-gray-600">Ingredients</Link>
             <Link href="#reviews" className="text-gray-800 hover:text-gray-600">Reviews</Link>

@@ -3,7 +3,7 @@ import "~/styles/globals.css";
 import Lenis from "~/contexts/Lenis";
 
 import { PreLoader } from "~/components/layouts/preloader/preloader";
-import Nav from "~/components/global/nav"
+import Nav from "~/components/layouts/nav"
 
 
 export const metadata: Metadata = {
@@ -22,23 +22,23 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Dialed by Eons - Combat Stress, Depression, and Anxiety Naturally",
-    description: "Discover Dialed by Eons, a premium amanita mushroom-based supplement designed to help you naturally manage stress, depression, and anxiety.",
+    title: "DIALED by Eons - Combat Stress, Depression, and Anxiety Naturally",
+    description: "Discover DIALED by Eons, a premium amanita mushroom-based supplement designed to help you naturally manage stress, depression, and anxiety.",
     url: "https://eons.com/getdialedin",
     images: [
       {
-        url: "",
-        width: 1200,
-        height: 630,
-        alt: "Dialed Product by Eons",
+        url: "https://m6abtmz27b.ufs.sh/f/JIbaFvH0FeDqZDbCfuY2JuRkvLV5fOiCWlxdETrsGajqeFSn",
+        width: 600,
+        height: 600,
+        alt: "DIALED Product by Eons",
       }
     ],
-    siteName: "Dialed Product by Eons",
+    siteName: "DIALED Product by Eons",
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Dialed by Eons - Natural Stress, Anxiety & Depression Relief",
+    title: "DIALED by Eons - Natural Stress, Anxiety & Depression Relief",
     description: "Discover Dialed by Eons, a premium amanita mushroom-based supplement designed to help you naturally manage stress, depression, and anxiety.",
     images: ["https://yourwebsite.com/twitter-image.jpg"],
   },

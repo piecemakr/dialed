@@ -1,0 +1,1 @@
+export const eonsDiscount = "https://eons.com/discount/ZKVC3MPNJRT4?redirect=%2Fproducts%2Fdialed"

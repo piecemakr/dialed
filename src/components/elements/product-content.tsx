@@ -5,6 +5,8 @@ import { Star, ShoppingCart } from 'lucide-react'
 import { Button } from "~/components/ui/button"
 import type { Product } from '../types'
 
+import { eonsDiscount } from "~/components/global/discount"
+
 interface ProductDetailsProps {
   product: Product
 }
@@ -77,7 +79,7 @@ export function ProductDetails({ product }: ProductDetailsProps) {
           <Button 
             size="lg" 
             className="w-full md:w-auto text-lg font-medium h-14"
-            onClick={() => window.location.href = 'https://eons.com/dialed'}
+            onClick={() => window.location.href = eonsDiscount}
           >
             <ShoppingCart className="mr-2 h-5 w-5" /> Buy DIALED on Eons.com
           </Button>
