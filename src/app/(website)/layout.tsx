@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import "~/styles/globals.css";
 import Lenis from "~/contexts/Lenis";
 
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import { PreLoader } from "~/components/layouts/preloader/preloader";
 import Nav from "~/components/layouts/nav"
 
@@ -65,7 +68,11 @@ export default function RootLayout({
       <body>
         <PreLoader />
         <Nav />
-        <Lenis>{children}</Lenis>
+        <Lenis>
+          {children}
+        </Lenis>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
