@@ -22,7 +22,7 @@ export const product: Product = {
   benefits: [
     'Conquer Stress, Fear, and Anxiety',
     'Powered by Quicksome™ Technology',
-    'Zero-Psychoactive Effects',
+    'Zero Hallucinogenic Effects',
     'Enhanced Focus, Creativity, and Menal Clarity',
   ],
   price: 124.00,
