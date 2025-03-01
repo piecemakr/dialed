@@ -8,6 +8,8 @@ import { Menu, X } from 'lucide-react'
 
 import { eonsDiscount } from "~/components/global/discount"
 
+import { track } from '@vercel/analytics';
+
 const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -84,6 +86,7 @@ const Nav = () => {
                 href={link.href}
                 className="block text-gray-800 hover:text-gray-600"
                 onClick={() => setIsMobileMenuOpen(false)}
+                
               >
                 {link.text}
               </Link>
@@ -92,6 +95,7 @@ const Nav = () => {
               onClick={() => {
                 window.location.href = eonsDiscount
                 setIsMobileMenuOpen(false)
+                track('Purchase', { location: 'navbar' });
               }}
               variant="cta" 
               size="sm"
@@ -107,4 +111,3 @@ const Nav = () => {
 }
 
 export default Nav
-

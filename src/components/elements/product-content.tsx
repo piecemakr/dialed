@@ -7,6 +7,8 @@ import type { Product } from '../types'
 
 import { eonsDiscount } from "~/components/global/discount"
 
+import { track } from '@vercel/analytics';
+
 interface ProductDetailsProps {
   product: Product
 }
@@ -81,7 +83,10 @@ export function ProductDetails({ product }: ProductDetailsProps) {
           <Button 
             size="lg" 
             className="w-full text-base sm:text-lg font-medium h-12 sm:h-14"
-            onClick={() => window.location.href = eonsDiscount}
+            onClick={() => {
+              window.location.href = eonsDiscount
+              track('Purchase', { location: 'product' });
+            }}
           >
             <ShoppingCart className="mr-2 h-5 w-5" /> Buy DIALED on Eons.com
           </Button>

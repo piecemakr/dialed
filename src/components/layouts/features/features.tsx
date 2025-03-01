@@ -7,6 +7,8 @@ import { features } from './data/data'
 
 import { eonsDiscount } from "~/components/global/discount"
 
+import { track } from '@vercel/analytics';
+
 export default function Eons() {
   return (
     <section id="benefits" className="section relative overflow-hidden bg-gray-50 py-12 sm:py-24">
@@ -38,7 +40,10 @@ export default function Eons() {
                 <Button
                   size="lg"
                   className="w-full sm:w-auto"
-                  onClick={() => window.location.href = eonsDiscount}
+                  onClick={() => {
+                    window.location.href = eonsDiscount
+                    track('Purchase', { location: 'navbar' });
+                  }}
                 >
                   Buy Eons DIALED 
                 </Button>

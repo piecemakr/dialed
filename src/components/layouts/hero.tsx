@@ -8,6 +8,8 @@ import { Button } from "~/components/ui/button"
 
 import { eonsDiscount } from "~/components/global/discount"
 
+import { track } from '@vercel/analytics';
+
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0)
   const imageRef = useRef<HTMLDivElement>(null)
@@ -82,7 +84,10 @@ export default function Hero() {
             <Button
               size="lg"
               className="w-full sm:w-auto"
-              onClick={() => window.location.href = eonsDiscount}
+              onClick={() => {
+                window.location.href = eonsDiscount
+                track('Purchase', { location: 'navbar' });
+              }}
             >
               Buy Eons DIALED 
             </Button>
